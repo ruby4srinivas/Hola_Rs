@@ -1,3 +1,12 @@
+Create Gem
+
+1) bundle gem <new gem name>
+2) After add the code to lib/<gemname.rb>
+3) gem build <gemname>.gemspec
+4) rake build # gives the full gemname
+5) rake release
+6) now you can find your gem in rubygems.org
+
 # HolaRs
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hola_rs`. To experiment with that code, run `bin/console` for an interactive prompt.
